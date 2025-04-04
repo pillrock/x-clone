@@ -37,8 +37,8 @@ A modern, responsive clone of X (formerly Twitter) built with Next.js 14, TypeSc
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/x-clone-ui.git
-cd x-clone-ui
+git clone https://github.com/pillrock/x-clone.git
+cd x-clone
 ```
 
 2. Install dependencies:
@@ -51,7 +51,7 @@ yarn install
 pnpm install
 ```
 
-3. Create a `.env.local` file in the root directory and add your ImageKit credentials:
+3. Create a `.env` file in the root directory and add your ImageKit credentials:
 
 ```env
 NEXT_PUBLIC_IMAGEKIT_URL_ENDPOINT=your_url_endpoint
